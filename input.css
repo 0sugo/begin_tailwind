@@ -7,3 +7,8 @@
         @apply font-serif text-red-900 text-9xl md:line-through
     }
 }
+@layer components{
+    .btn-maroon{
+        @apply py-2 px-4 bg-orange-500 text-center hover:bg-sky-700
+    }
+}
