@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    a{
+        @apply font-serif text-red-900 text-9xl md:line-through
+    }
+}
