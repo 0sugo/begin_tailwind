@@ -590,11 +590,6 @@ a {
   background-color: rgb(99 102 241 / var(--tw-bg-opacity));
 }
 
-.bg-sky-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(14 165 233 / var(--tw-bg-opacity));
-}
-
 .text-center {
   text-align: center;
 }
@@ -609,9 +604,8 @@ a {
   color: rgb(229 231 235 / var(--tw-text-opacity));
 }
 
-.hover\:bg-sky-700:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(3 105 161 / var(--tw-bg-opacity));
+.p-21{
+  padding:5.5rem;
 }
 
 @media (min-width: 1024px) {
