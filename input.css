@@ -16,4 +16,9 @@
     .p-21{
         padding:5.5rem;
     }
+    @variants hover,focus{
+        .p-21{
+            padding:5.5rem;
+        }
+    }
 }

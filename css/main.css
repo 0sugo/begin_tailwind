@@ -608,6 +608,10 @@ a {
   padding:5.5rem;
 }
 
+.hover\:p-21:hover{
+  padding:5.5rem;
+}
+
 @media (min-width: 1024px) {
   .lg\:container {
     width: 100%;
