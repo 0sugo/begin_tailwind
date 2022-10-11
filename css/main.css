@@ -585,6 +585,11 @@ a {
   height: 8rem;
 }
 
+.rotate-0 {
+  --tw-rotate: 0deg;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
 .bg-indigo-500 {
   --tw-bg-opacity: 1;
   background-color: rgb(99 102 241 / var(--tw-bg-opacity));
@@ -606,6 +611,17 @@ a {
 
 .p-21{
   padding:5.5rem;
+}
+
+@media (min-width: 640px) {
+  .rotate-0{
+    transform: rotate(40deg);
+    padding: 150px;
+  }
+}
+
+.content-area{
+  spacing:15rem
 }
 
 .hover\:p-21:hover{

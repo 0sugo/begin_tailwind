@@ -22,3 +22,13 @@
         }
     }
 }
+@media screen(sm) {
+    .rotate-0{
+        transform: rotate(40deg);
+        padding: 150px;
+    }
+}
+
+.content-area{
+    spacing:theme('spacing.60')
+}
